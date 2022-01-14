@@ -65,3 +65,13 @@ When logging in the ieng6 server, you will always need to type in your password 
 11. Now you are set to use scp and log into the ieng6 server without needing to type in your course-specific account password everytime. 
 
 # Optimizing Remote Running
+Now let's make remote running even more pleasant to do.
+
+Type in the command: "ssh cs15lwi22aey@ieng6.ucsd.edu "ls" ", "but replace the "aey" with your course-specific account letters.
+You will be shown what's in your account folder which will include the WhereAmI.java file.
+
+**You can also use semicolons to run multiple commands on the same line:** 
+"cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI"
+
+# Summary
+This blog page has taught you how to download VS code and connect to a remote server. You had OpenSSH setup on your computer and learned how to move files from your computer to a server. You also had a SSH key configured on your computer so you can connect to a remote server without needed to type in your password everytime you want to access the server. 
