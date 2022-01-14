@@ -43,7 +43,18 @@ If you want to logout the ieng6 server, you can either uses **Ctrl-D** or type i
 Now you will learn to move files over SSH using the scp command. 
 1. Create a file called "WhereAmI.java" and the file should contain:
     ![Image](screenshot5.PNG)
+2. Run the java file you just created using "javac" and java on your computer. If you don't have java on your computer, don't worry about this step.
+3. To run java code on the server computer, type "scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~\
+4. Terminal will ask for your course-specific password, so go ahread and type that in.
+5. Now you will see that you can run java on the ieng6 computer using the "javac" and "java" commands. 
 
 # Settings an SSH key
+When logging in the ieng6 server, you will always need to type in your password for your course-specific account which gets annoying when you needed to access the server most of the time. I will be teaching you how to make a SSH key which will allow you to connect to the ieng6 server without needing to type in your password. 
+
+1. On your client (your computer) you will type in the command "ssh-keygen" in terminal. This will generate a public/private rsa key pair.
+2. Terminal will ask you which file to save the key "(/User/username/.ssh/id_rsa):" but the username will be your computer's username.
+3. You will then type "/User/username/.ssh/id_rsa" but replace "username" with your computer's username.
+
+
 
 # Optimizing Remote Running
