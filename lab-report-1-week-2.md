@@ -13,4 +13,4 @@ Before we access the ieng6 server, you would need to install [OpenSSH](https://d
 # Connecting to Remote server
 Now, you will need to open terminal in your VS code by using **(Ctrl or Command + `, or use the Terminal --> New Terminal menu option)**. Opening terminal, you will need to type what is shown in the screenshot below but replace the zz with the letters in your course-specific account.
 
-![Image](cse15l-lab-reports\screenshot1.PNG)
+![Image](screenshot1.PNG)
