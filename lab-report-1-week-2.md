@@ -4,3 +4,9 @@ To install VS code, visit the website [https://code.visualstudio.com/](https://c
 button for the correct system.
 
 # Remotely Connecting to CSE server using course-specific account
+To get your course-specific account, go to [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) and login with your university info. 
+You will be given instuctions on how to active your course-specific if you haven't activated it yet. 
+
+# Install OpenSSH
+Before we access the ieng6 server, you would need to install OpenSSH. 
+
