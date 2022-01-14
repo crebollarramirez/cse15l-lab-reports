@@ -26,3 +26,12 @@ You will want to type in "yes" because it's a trusted server and you know your s
 Once you type in your password correctly you will be connected to the ieng6 server and given information about your account.
 
 ![Image](screenshot4.PNG)
+
+
+# Trying Some Commands
+
+# Moving Files with "scp"
+
+# Settings an SSH key
+
+# Optimizing Remote Running
