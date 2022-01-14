@@ -69,5 +69,7 @@ When logging in the ieng6 server, you will always need to type in your password 
     |             ..  |
     +----[SHA256]-----+
 
+7. If you are on windows, follow the additional steps provided by [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+
 
 # Optimizing Remote Running
