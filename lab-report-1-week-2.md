@@ -19,6 +19,10 @@ You then want to push enter and a message will be prompted towards you.
 
 ![Image](screenshot2.PNG)
 
-You will want to type in "yes" because it's a trusted server and you know your security is valued. This doesn't go to say all servers value your security so be mindful in who's server you are connecting to. 
+You will want to type in "yes" because it's a trusted server and you know your security is valued. This doesn't go to say all servers value your security so be mindful in who's server you are connecting to. Once you type in yes and push enter, you will be asked your course-specific account password. Make sure to type it in correctly to login. While you type in your password, it won't show that you are typing for security reasons, so type slowly to make sure you are inputting your password correctly. 
 
 ![Image](screenshot3.PNG)
+
+Once you type in your password correctly you will be connected to the ieng6 server and given information about your account.
+
+![Image](screenshot4.PNG)
