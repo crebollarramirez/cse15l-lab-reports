@@ -67,7 +67,7 @@ When logging in the ieng6 server, you will always need to type in your password 
 # Optimizing Remote Running
 Now let's make remote running even more pleasant to do.
 
-Type in the command: "ssh cs15lwi22aey@ieng6.ucsd.edu "ls" ", "but replace the "aey" with your course-specific account letters.
+Type in the command: "ssh cs15lwi22aey@ieng6.ucsd.edu "ls" ", but replace the "aey" with your course-specific account letters.
 You will be shown what's in your account folder which will include the WhereAmI.java file.
 
 **You can also use semicolons to run multiple commands on the same line:** 
