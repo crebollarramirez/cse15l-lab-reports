@@ -8,5 +8,5 @@ To get your course-specific account, go to [https://sdacs.ucsd.edu/~icc/index.ph
 You will be given instuctions on how to active your course-specific if you haven't activated it yet. 
 
 # Install OpenSSH
-Before we access the ieng6 server, you would need to install OpenSSH. 
+Before we access the ieng6 server, you would need to install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).
 
