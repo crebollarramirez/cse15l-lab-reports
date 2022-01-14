@@ -10,3 +10,7 @@ You will be given instuctions on how to active your course-specific if you haven
 # Install OpenSSH
 Before we access the ieng6 server, you would need to install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).
 
+# Connecting to Remote server
+Now, you will need to open terminal in your VS code by using **(Ctrl or Command + `, or use the Terminal --> New Terminal menu option)**. Opening terminal, you will need to type what is shown in the screenshot below but replace the zz with the letters in your course-specific account.
+
+![Image]()
