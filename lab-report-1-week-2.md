@@ -76,4 +76,4 @@ You will be shown what's in your account folder which will include the WhereAmI.
 # Summary
 This blog page has taught you how to download VS code and connect to a remote server. You had OpenSSH setup on your computer and learned how to move files from your computer to a server. You also had a SSH key configured on your computer so you can connect to a remote server without needed to type in your password everytime you want to access the server. 
 
-![Image](catDancing.gf)
+![Image](catDancing.gif)
