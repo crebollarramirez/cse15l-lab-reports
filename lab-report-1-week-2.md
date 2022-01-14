@@ -29,6 +29,15 @@ Once you type in your password correctly you will be connected to the ieng6 serv
 
 
 # Trying Some Commands
+You can try run these useful commands:
+* cd ~
+* cd
+* ls -lat
+* ls <directory> where <directory> is /home/linux/ieng6/cs15lwi22/cs15lwi22aey, where the "aey" is one of the other group members' username
+* cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lwi22/public/hello.txt
+
+If you want to logout the ieng6 server, you can either uses **Ctrl-D** or type in "**exit**" or "**logout**"
 
 # Moving Files with "scp"
 
