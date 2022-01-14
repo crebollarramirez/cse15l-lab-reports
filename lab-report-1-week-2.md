@@ -59,6 +59,9 @@ When logging in the ieng6 server, you will always need to type in your password 
 6. You will then be given a key fingerprint and a randomart image for your key which will look something like:
     ![Image](screenshot6.PNG)
 7. If you are on windows, follow the additional steps provided by [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
-
+8. Now log into the server and which will still prompt you to type in your password. Once you are on the server, you will type in "mkdir .ssh" and hit enter.
+9. You will logout the server.
+10. Now on your client, you will type in the command, "scp /Users/username/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys" you will change "username" to your computer's username and hit enter.
+11. Now you are set to use scp and log into the ieng6 server without needing to type in your course-specific account password everytime. 
 
 # Optimizing Remote Running
