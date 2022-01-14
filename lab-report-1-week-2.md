@@ -42,14 +42,8 @@ If you want to logout the ieng6 server, you can either uses **Ctrl-D** or type i
 # Moving Files with "scp"
 Now you will learn to move files over SSH using the scp command. 
 1. Create a file called "WhereAmI.java" and the file should contain:
-    class WhereAmI {
-        public static void main(String[] args) {
-            System.out.println(System.getProperty("os.name"));
-            System.out.println(System.getProperty("user.name"));
-            System.out.println(System.getProperty("user.home"));
-            System.out.println(System.getProperty("user.dir"));
-    }
-}
+    ![Image](screenshot5.PNG)
+
 # Settings an SSH key
 
 # Optimizing Remote Running
