@@ -43,7 +43,7 @@ If you want to logout the ieng6 server, you can either uses **Ctrl-D** or type i
 # Moving Files with "scp"
 Now you will learn to move files over SSH using the scp command. 
 1. Create a file called "WhereAmI.java" and the file should contain:
-    ![Image](screenshot5.PNG)
+    ![Image](screenshotCode.PNG)
 2. Run the java file you just created using "javac" and java on your computer. If you don't have java on your computer, don't worry about this step.
 3. To run java code on the server computer, type: `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~\`
 4. Terminal will ask for your course-specific password, so go ahread and type that in.
@@ -69,11 +69,26 @@ When logging in the ieng6 server, you will always need to type in your password 
 Now let's make remote running even more pleasant to do.
 
 Type in the command: `ssh cs15lwi22aey@ieng6.ucsd.edu "ls" ` but replace the "aey" with your course-specific account letters.
-You will be shown what's in your account folder which will include the WhereAmI.java file.
+You will be shown what's in your account folder which will include the WhereAmI.java file. 
+
+# Useful Keystrokes
+By using the **up-key** I was able to access previous written commands, such as `ssh cs15lwi22amn@ieng6.ucsd.edu`, which used 2 keystrokes (**up-key + enter**).
 
 **You can also use semicolons to run multiple commands on the same line:** 
+I copied and pasted this command which allows me to run multiple commands on the same line. It took 5 keystrokes to complete, (**control + c** and **control + v**) and to hit enter. 
 `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
+<br /> **WhereAmI.java should now look like this:**
+
+![Image](screenshot5.png)
+
+
+**Results from updated code:**
+![Image](screenshot7.png)
+
+There was 7 keystrokes used in total to make a local edit. The edit was made in WhereAmI.java file. The screenshot below can show how `System.out.println("Hello World!");` was written and saved in the file.
+
+ 
 # Summary
 This blog page has taught you how to download VS code and connect to a remote server. You had OpenSSH setup on your computer and learned how to move files from your computer to a server. You also had a SSH key configured on your computer so you can connect to a remote server without needed to type in your password everytime you want to access the server. 
 
