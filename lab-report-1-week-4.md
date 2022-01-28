@@ -1,2 +1,1 @@
-This is a test
-this is another test
+This is lab report 2
