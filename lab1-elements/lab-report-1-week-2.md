@@ -83,7 +83,7 @@ I copied and pasted this command which allows me to run multiple commands on the
 
 ![Image](screenshot7.PNG)
 
-There was 7 keystrokes used in total to make a local edit. The edit was made in WhereAmI.java file. The screenshot below can show how `System.out.println("Hello World!");` was written and saved in the file.
+There was 7 keystrokes used in total to make a local edit. The edit was made in WhereAmI.java file. The screenshot below can show how `System.out.println("Hello World!");` was written and saved into the file.
 
  
 # Summary
