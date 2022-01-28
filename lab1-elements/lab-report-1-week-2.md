@@ -82,6 +82,8 @@ I copied and pasted this command which allows me to run multiple commands on the
 
 ![Image](screenshot5.png)
 
+![Image](screenshot6.PNG)
+
 
 **Results from updated code:**
 ![Image](screenshot7.png)
