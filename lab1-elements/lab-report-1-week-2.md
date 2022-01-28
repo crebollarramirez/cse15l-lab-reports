@@ -20,7 +20,7 @@ You then want to push enter and a message will be prompted towards you.
 
 ![Image](screenshot2.PNG)
 
-You will want to type in "yes" because it's a trusted server and you know your security is valued. This doesn't go to say all servers value your security so be mindful in who's server you are connecting to. Once you type in yes and push enter, you will be asked your course-specific account password. Make sure to type it in correctly to login. While you type in your password, it won't show that you are typing for security reasons, so type slowly to make sure you are inputting your password correctly. 
+You will want to type in `yes` because it's a trusted server and you know your security is valued. This doesn't go to say all servers value your security so be mindful in who's server you are connecting to. Once you type in yes and push enter, you will be asked your course-specific account password. Make sure to type it in correctly to login. While you type in your password, it won't show that you are typing for security reasons, so type slowly to make sure you are inputting your password correctly. 
 
 ![Image](screenshot3.PNG)
 
@@ -54,25 +54,25 @@ When logging in the ieng6 server, you will always need to type in your password 
 
 1. On your client (your computer) you will type in the command "ssh-keygen" in terminal. This will generate a public/private rsa key pair.
 2. Terminal will ask you which file to save the key "(/User/username/.ssh/id_rsa):" but the username will be your computer's username.
-3. You will then type "/User/username/.ssh/id_rsa" but replace "username" with your computer's username and hit enter.
+3. You will then type `/User/username/.ssh/id_rsa` but replace "username" with your computer's username and hit enter.
 4. The terminal will ask for a passphrase but since you don't have one, nor create one, just hit enter without typing in anything.
 5. It will ask you to type in passphrase again, you will just hit enter without typing anything.
 6. You will then be given a key fingerprint and a randomart image for your key which will look something like:
     ![Image](screenshot6.PNG)
 7. If you are on windows, follow the additional steps provided by [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
-8. Now log into the server and which will still prompt you to type in your password. Once you are on the server, you will type in "mkdir .ssh" and hit enter.
+8. Now log into the server and which will still prompt you to type in your password. Once you are on the server, you will type in `mkdir .ssh` and hit enter.
 9. You will logout the server.
-10. Now on your client, you will type in the command, "scp /Users/username/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys" you will change "username" to your computer's username and hit enter.
+10. Now on your client, you will type in the command, `scp /Users/username/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys` you will change "username" to your computer's username and hit enter.
 11. Now you are set to use scp and log into the ieng6 server without needing to type in your course-specific account password everytime. 
 
 # Optimizing Remote Running
 Now let's make remote running even more pleasant to do.
 
-Type in the command: "ssh cs15lwi22aey@ieng6.ucsd.edu "ls" ", but replace the "aey" with your course-specific account letters.
+Type in the command: `ssh cs15lwi22aey@ieng6.ucsd.edu "ls" ` but replace the "aey" with your course-specific account letters.
 You will be shown what's in your account folder which will include the WhereAmI.java file.
 
 **You can also use semicolons to run multiple commands on the same line:** 
-"cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI"
+`cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
 # Summary
 This blog page has taught you how to download VS code and connect to a remote server. You had OpenSSH setup on your computer and learned how to move files from your computer to a server. You also had a SSH key configured on your computer so you can connect to a remote server without needed to type in your password everytime you want to access the server. 
