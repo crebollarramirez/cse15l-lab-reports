@@ -78,12 +78,9 @@ By using the **up-key** I was able to access previous written commands, such as 
 I copied and pasted this command which allows me to run multiple commands on the same line. It took 5 keystrokes to complete, (**control + c** and **control + v**) and to hit enter. 
 `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
- **WhereAmI.java should now look like this:**
-
 ![Image](screenshot5.PNG)
 
 
-**Results from updated code:**
 ![Image](screenshot7.PNG)
 
 There was 7 keystrokes used in total to make a local edit. The edit was made in WhereAmI.java file. The screenshot below can show how `System.out.println("Hello World!");` was written and saved in the file.
