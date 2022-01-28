@@ -45,7 +45,7 @@ Now you will learn to move files over SSH using the scp command.
 1. Create a file called "WhereAmI.java" and the file should contain:
     ![Image](screenshot5.PNG)
 2. Run the java file you just created using "javac" and java on your computer. If you don't have java on your computer, don't worry about this step.
-3. To run java code on the server computer, type "scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~\
+3. To run java code on the server computer, type ```scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~\
 4. Terminal will ask for your course-specific password, so go ahread and type that in.
 5. Now you will see that you can run java on the ieng6 computer using the "javac" and "java" commands. 
 
