@@ -58,6 +58,7 @@ When logging in the ieng6 server, you will always need to type in your password 
 4. The terminal will ask for a passphrase but since you don't have one, nor create one, just hit enter without typing in anything.
 5. It will ask you to type in passphrase again, you will just hit enter without typing anything.
 6. You will then be given a key fingerprint and a randomart image for your key which will look something like:
+    
     ![Image](screenshot6.PNG)
 7. If you are on windows, follow the additional steps provided by [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 8. Now log into the server and which will still prompt you to type in your password. Once you are on the server, you will type in `mkdir .ssh` and hit enter.
