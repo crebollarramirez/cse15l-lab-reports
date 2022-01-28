@@ -80,12 +80,11 @@ I copied and pasted this command which allows me to run multiple commands on the
 
  **WhereAmI.java should now look like this:**
 
-![Image](screenshot5.png)
-
+![Image](screenshot5.PNG)
 
 
 **Results from updated code:**
-![Image](screenshot7.png)
+![Image](screenshot7.PNG)
 
 There was 7 keystrokes used in total to make a local edit. The edit was made in WhereAmI.java file. The screenshot below can show how `System.out.println("Hello World!");` was written and saved in the file.
 
