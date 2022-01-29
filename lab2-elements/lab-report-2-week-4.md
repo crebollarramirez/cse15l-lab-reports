@@ -66,3 +66,6 @@ This is the code fully working where it only takes the links for websites and co
 
 # Summary
 The main bug that was present in the program was how images were added in the Links ArrayList. The sympotom of the bug was seeing the images in the ArrayList. The failure-inducing input was the links that were present in the test-files. 
+
+
+This is a test
