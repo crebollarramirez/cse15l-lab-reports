@@ -29,6 +29,7 @@ This fix caused an issue if the first line didn't contain an image link, it will
 
 
 **Without an image link in the first line of the Test File:**
+
 ![image](without-image-link.PNG)
 
 
