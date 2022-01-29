@@ -3,8 +3,12 @@ When working in labs, I forked the professors program. The TA told us that we wi
 
 ![Image](professorCode.png)
 
+**Here is the output of the professor's code using test-file.md:
+![Image](profOutput.png)
+
 # Test files that will be used to test the program
-[test-file](test-files/test-file.md)  [test-file2](test-files/test-file2.md)
+![image](test-files-screenshots\test-file1.png)    
+![image](test-files-screenshots\test-file2.png)
 
 # First Change of the Code
 The professor's code didn't account to ignore image links so it adds them to the website links array which is incorrect. 
@@ -43,3 +47,4 @@ This is the code fully working where it only takes the links for websites and co
 
 
 # Summary
+The main bug that was present in the program was how images were added in the Links ArrayList. The sympotom of the bug was seeing the images in the ArrayList. The failure-inducing input was the links that were present in the test-files. 
