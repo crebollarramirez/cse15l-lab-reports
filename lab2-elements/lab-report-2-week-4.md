@@ -24,6 +24,7 @@ We added an instruction to ignore image links so we can only add website links t
 This fix caused an issue if the first line didn't contain an image link, it will give us an out of bound error. 
 
 **With an image link in the first line of the Test File:**
+
 ![image](with-image-link.PNG)
 
 
