@@ -57,6 +57,7 @@ Now with this this third change, the program works by completely ignoring the im
 ![Image](full-code.PNG)
 
 **Output of Program:**
+
 ![Image](lastOutput.PNG)
 ![Image](lastOutput2.PNG)
 
