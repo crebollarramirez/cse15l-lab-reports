@@ -63,12 +63,12 @@ Now with this this third change, the program works by completely ignoring the im
 
 
 # Simplified and Fully Working Code:
+This is the code fully working where it only takes the links for websites and completely ignores image links. This is the same code just simplified a little.
 
-This is the code fully working where it only takes the links for websites and completely ignored image links. 
+![Image](perfectCode.PNG)
 
 
 # Summary
 The main bug that was present in the program was how images were added in the Links ArrayList. The sympotom of the bug was seeing the images in the ArrayList. The failure-inducing input was the links that were present in the test-files. 
 
-
-This is a test
+![Image](wigglecat.gif)
