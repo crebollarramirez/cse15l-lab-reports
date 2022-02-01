@@ -52,7 +52,7 @@ Now you will learn to move files over SSH using the scp command.
 # Settings an SSH key
 When logging in the ieng6 server, you will always need to type in your password for your course-specific account which gets annoying when you needed to access the server most of the time. I will be teaching you how to make a SSH key which will allow you to connect to the ieng6 server without needing to type in your password. 
 
-1. On your client (your computer) you will type in the command "ssh-keygen" in terminal. This will generate a public/private rsa key pair.
+1. On your client (your computer) you will type in the command `ssh-keygen` in terminal. This will generate a public/private rsa key pair.
 2. Terminal will ask you which file to save the key "(/User/username/.ssh/id_rsa):" but the username will be your computer's username.
 3. You will then type `/User/username/.ssh/id_rsa` but replace "username" with your computer's username and hit enter.
 4. The terminal will ask for a passphrase but since you don't have one, nor create one, just hit enter without typing in anything.
