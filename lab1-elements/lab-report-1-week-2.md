@@ -47,7 +47,7 @@ Now you will learn to move files over SSH using the scp command.
 2. Run the java file you just created using "javac" and java on your computer. If you don't have java on your computer, don't worry about this step.
 3. To run java code on the server computer, type: `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~\`
 4. Terminal will ask for your course-specific password, so go ahread and type that in.
-5. Now you will see that you can run java on the ieng6 computer using the "javac" and "java" commands. 
+5. Now you will see that you can run java on the ieng6 computer using the `javac` and `java` commands. 
 
 # Settings an SSH key
 When logging in the ieng6 server, you will always need to type in your password for your course-specific account which gets annoying when you needed to access the server most of the time. I will be teaching you how to make a SSH key which will allow you to connect to the ieng6 server without needing to type in your password. 
@@ -88,6 +88,6 @@ There was 7 keystrokes used in total to make a local edit. The edit was made in 
 
  
 # Summary
-This blog page has taught you how to download VS code and connect to a remote server. You had OpenSSH setup on your computer and learned how to move files from your computer to a server. You also had a SSH key configured on your computer so you can connect to a remote server without needed to type in your password everytime you want to access the server. 
+This blog page has taught you how to download VS code and connect to a remote server. You had OpenSSH setup on your computer and learned how to move files from your computer to a server. You also had a SSH key configured on your computer so you can connect to a remote server without needing to type in your password everytime you want to access the server. 
 
 ![Image](catDancing.gif)
