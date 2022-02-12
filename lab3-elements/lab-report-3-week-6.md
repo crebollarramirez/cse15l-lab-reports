@@ -1,4 +1,11 @@
-# Lab Report 3
+# Lab Report 3: Screamlining `ssh` Configuration
 
-# Streamlining ssh Configuration
-**Screenshot of .ssh/config file:** 
+# Screenshot of .ssh/config file
+![Image](config-file.PNG)
+
+# Running the `ssh` command logging me in
+![Image](runningCommand.PNG)
+
+# Copying files using `scp` command using alias
+![Image](copyingFile.PNG)
+
