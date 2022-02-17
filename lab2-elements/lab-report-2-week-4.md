@@ -58,9 +58,11 @@ Now with this this third change, the program works by completely ignoring the im
 ![Image](commit4.PNG)
 
 **Output of Program using test-file1:** [test-file1](test-file2.txt)
+
 ![Image](lastOutput.PNG)
 
 **Output of Program using test-file2:** [test-file2](test-file2.txt)
+
 ![Image](lastOutput2.PNG)
 
 
