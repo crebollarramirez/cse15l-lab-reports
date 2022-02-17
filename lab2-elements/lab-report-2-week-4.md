@@ -19,7 +19,7 @@ Since image links are very similar to website links, the program will add the im
 
 We added an instruction to ignore image links so we can only add website links to the ArrayList.
 
-![Image](step1.PNG)
+![Image](commit2.png)
 
 This fix caused an issue if the first line didn't contain an image link, it will give us an out of bound error. 
 
@@ -37,7 +37,7 @@ As you can see, when there isn't a image link at the start of the Test File, the
 
 # Second Change of the Code
 Now the program won't crash where there is no image found in the first line. I have altered the code so there will be no error when it's check for a link in the first line but there is still a bug present after the updated code. 
-![Image](secondChange.PNG)
+![Image](commit3.PNG)
 
 **With test-file2.md, it doesn't crash and doesn't put the image that is found in the first line in the ArrayList:**
 ![Image](secondOutput2.PNG)
@@ -54,7 +54,7 @@ This output is missing "https://something.com". The ArrayList should have been:
 # Third Change of the Code
 Now with this this third change, the program works by completely ignoring the image links and only taking the website links. 
 
-![Image](full-code.PNG)
+![Image](commit4.png)
 
 **Output of Program:**
 
