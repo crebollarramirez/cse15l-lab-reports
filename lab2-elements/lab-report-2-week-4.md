@@ -19,20 +19,19 @@ Since image links are very similar to website links, the program will add the im
 
 We added an instruction to ignore image links so we can only add website links to the ArrayList.
 
-
 ![Image](commit2.PNG)
 
 This fix caused an issue if the first line didn't contain an image link, it will give us an out of bound error. 
 
-**With an image link in the first line of the Test File:**
+**With an image link in the first line of the Test File:** [test-file1](test-file.txt)    
+
 
 ![image](with-image-link.PNG)
 
 
-**Without an image link in the first line of the Test File:**
+**Without an image link in the first line of the Test File:** [test-file2](test-file2.txt)
 
 ![image](without-image-link.PNG)
-
 
 As you can see, when there isn't a image link at the start of the Test File, there will be an index out of bound of -1 since the first bracket has an index of 0 since it's at the start of the file and has nothing before it. 
 
@@ -56,7 +55,6 @@ This output is missing "https://something.com". The ArrayList should have been:
 # Third Change of the Code
 Now with this this third change, the program works by completely ignoring the image links and only taking the website links. 
 
-
 ![Image](commit4.PNG)
 
 **Output of Program:**
@@ -69,7 +67,6 @@ Now with this this third change, the program works by completely ignoring the im
 This is the code fully working where it only takes the links for websites and completely ignores image links. This is the same code just simplified a little.
 
 ![Image](perfectCode.PNG)
-
 
 # Summary
 The main bug that was present in the program was how images were added in the Links ArrayList. The sympotom of the bug was seeing the images in the ArrayList. The failure-inducing input was the links that were present in the test-files. 
