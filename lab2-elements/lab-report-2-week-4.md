@@ -8,8 +8,8 @@ When working in labs, I forked the professors program. The TA told us that we wi
 ![Image](profOutput.PNG)
 
 # Test files that will be used to test the program
-![Image](test-file1.PNG)    
-![Image](test-file2.PNG)
+[test-file1](test-file.txt)    
+[test-file2](test-file2.txt)
 
 
 # First Change of the Code
