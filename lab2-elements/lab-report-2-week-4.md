@@ -37,7 +37,8 @@ As you can see, when there isn't a image link at the start of the Test File, the
 
 # Second Change of the Code
 Now the program won't crash where there is no image found in the first line. I have altered the code so there will be no error when it's check for a link in the first line but there is still a bug present after the updated code. 
-![Image](commit3.PNG)
+
+![Image](commit3.png)
 
 **With test-file2.md, it doesn't crash and doesn't put the image that is found in the first line in the ArrayList:**
 ![Image](secondOutput2.PNG)
@@ -53,6 +54,7 @@ This output is missing "https://something.com". The ArrayList should have been:
 
 # Third Change of the Code
 Now with this this third change, the program works by completely ignoring the image links and only taking the website links. 
+
 
 ![Image](commit4.png)
 
