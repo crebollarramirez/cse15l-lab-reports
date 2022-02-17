@@ -40,11 +40,11 @@ Now the program won't crash where there is no image found in the first line. I h
 
 ![Image](commit3.PNG)
 
-**With test-file2.md, it doesn't crash and doesn't put the image that is found in the first line in the ArrayList:**
+**With test-file2.md, it doesn't crash and doesn't put the image that is found in the first line in the ArrayList:** [test-file2](test-file2.txt)
 ![Image](secondOutput2.PNG)
 
 
-**The bug present is that it doesn't put the link that is in the first line into the ArrayList:**
+**The bug present is that it doesn't put the link that is in the first line into the ArrayList:** [test-file1](test-file.txt)    
 ![Image](secondOutput.PNG)
 
 This output is missing "https://something.com". The ArrayList should have been: 
@@ -57,9 +57,10 @@ Now with this this third change, the program works by completely ignoring the im
 
 ![Image](commit4.PNG)
 
-**Output of Program:**
-
+**Output of Program using test-file1:** [test-file1](test-file2.txt)
 ![Image](lastOutput.PNG)
+
+**Output of Program using test-file2:** [test-file2](test-file2.txt)
 ![Image](lastOutput2.PNG)
 
 
