@@ -1,7 +1,7 @@
 # Lab Report 4 
 
-Link to my MarkdownParse Repository: 
-Link to Group Reviewed MarkdownParse Repository:
+Link to my MarkdownParse Repository: [My Repository](https://github.com/therealstezzy/markdown-parse.git)
+Link to Group Reviewed MarkdownParse Repository: [Other Group Repository](https://github.com/zfxd/markdown-parse.git)
 
 # Expected output for Each Snippet:
 1. Snippet 1: ``["`google.com", "google.com", "ucsd.edu"]``
@@ -9,6 +9,7 @@ Link to Group Reviewed MarkdownParse Repository:
 3. Snippet 3:`[https://www.twitter.com, https://ucsd-cse15l-w22.github.io, https://cse.ucsd.edu/]`
 
 # Code for Tests from my MarkdownParse.java:
+![Image](tests.png)
 
 # jUnit Testing Output:
 
