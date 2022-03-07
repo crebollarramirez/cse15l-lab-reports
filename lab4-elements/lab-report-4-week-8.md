@@ -9,10 +9,10 @@ Link to Group Reviewed MarkdownParse Repository: [Other Group Repository](https:
 3. Snippet 3:`[https://www.twitter.com, https://ucsd-cse15l-w22.github.io, https://cse.ucsd.edu/]`
 
 # Code for Tests from my MarkdownParse.java:
-![Image](tests.png)
+![Image](tests.PNG)
 
 # jUnit Testing Output:
-![Image](jUnitrun.png)
+![Image](jUnitrun.PNG)
 # Answer to question:
 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 
