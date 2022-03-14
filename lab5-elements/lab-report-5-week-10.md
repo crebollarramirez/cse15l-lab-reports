@@ -37,6 +37,6 @@ The File's content were:
 The code should return `[foo(and(bar))]`, but my implementation is causing a bug
 ![Image](code2.PNG)
 
-
+My code is intended to break the loop if the nextOpenBracket variable is the first character which wouldn't add the link to the ArrayList. Getting rid of this if statement will solve my bug.
 
 
