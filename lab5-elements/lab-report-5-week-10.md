@@ -9,9 +9,6 @@ test.files/201.md
 
 ![Image](fileTestOutput.PNG)
 
-## The Second Difference I found: 
-test-files/495.md
-
 The File's content were: 
 
 ![Image](file-contents.PNG)
@@ -19,6 +16,13 @@ The File's content were:
 I can say that this should return an empty ArrayList because there are characters between the closed bracket and open parenthesis, which indicates it is not a link. My implementation is correct for this file and I believe that professor's implementation is incorrect.
 
 ![Image](code.PNG)
+
+The bug in this code doesn't check if there are charactres between the closed bracket and open barenthesis. An extra condition much be assed to satisiy this test.
+
+
+## The Second Difference I found: 
+test-files/495.md
+
 
 
 
